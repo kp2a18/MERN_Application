@@ -1,0 +1,45 @@
+.track-model{
+    color: green;
+    background-color: whitesmoke;
+    height: 100%;
+}
+.trackHeader{
+    font-weight: 900;
+    text-align: center;
+    margin-top: 3rem;
+}
+.list{
+    margin-top: 15%;
+}
+.list:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.listItem{
+    list-style: none;
+    float: left;
+    width: 11.11%;
+    display: block;
+    padding: auto;
+}
+figcaption{
+    display: none;
+    font-size: 0.5rem;
+}
+.smallImage{
+    height: 4rem;
+    width: 4rem;
+    float: left;
+}
+.largeImage{
+    height: 7rem;
+    width: 7rem;
+    float: left;
+    background-color: gold;
+    border-radius: 2rem;
+}
+.arrowImage{
+    height: 4rem;
+    width: 4rem;
+}
